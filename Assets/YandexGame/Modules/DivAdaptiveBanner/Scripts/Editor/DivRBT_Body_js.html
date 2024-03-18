@@ -1,0 +1,37 @@
+﻿
+<div id="__NameRTB__">
+    <script>
+        const __NameRTB__Const = document.querySelector('#__NameRTB__');
+
+        function __NameRTB__Activity(state) {
+            try {
+                if (state === 'True')
+                    __NameRTB__Const.classList.add('show');
+                else
+                    __NameRTB__Const.classList.remove('show');
+                
+            } catch (e) {
+                console.error('CRASH Activity __NameRTB__: ', e.message);
+            }
+        }
+
+        function __NameRTB__Recalculate(_width, _height, _left, _top) {
+            try {
+                document.getElementById('__NameRTB__').style.width = _width;
+                document.getElementById('__NameRTB__').style.height = _height;
+                document.getElementById('__NameRTB__').style.left = _left;
+                document.getElementById('__NameRTB__').style.top = _top;
+            } catch (e) {
+                console.error('CRASH Recalculate __NameRTB__: ', e.message);
+            }
+        }
+
+        function __NameRTB__ExecuteCode() {
+            try {
+                __FunctionExecuteCode__
+            } catch (e) {
+                console.error('CRASH ExecuteCode __NameRTB__: ', e.message);
+            }
+        }
+    </script>
+</div>
